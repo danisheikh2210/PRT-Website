@@ -13,5 +13,6 @@ spec:
       containers:
         - name: prtcontainer
           image: danisheikh/prtimage
-  matchLabels:
-    app: myapp
+  selcetor:
+    matchLabels:
+      app: myapp
